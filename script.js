@@ -131,10 +131,10 @@ function loadLastAnimal() {
 
 // This function checks which key was pressed
 function handleKeyboardPress(event) {
-    const pressedKey = event.key.toLowerCase();
+    const pressedCode = event.code;
 
     for (let i = 0; i < animals.length; i++) {
-        if (pressedKey === animals[i].key) {
+        if (pressedCode === "Key" + animals[i].key.toUpperCase()) {
             playAnimalSound(animals[i]);
             break;
         }
