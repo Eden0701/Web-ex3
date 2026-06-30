@@ -4,37 +4,37 @@ const animals = [
         name: "Chicken",
         key: "h",
         image: "images/chicken.gif",
-        sound: "sounds/chicken.mp3"
+        sound: "sounds/Chicken.mp3"
     },
     {
         name: "Dog",
         key: "d",
         image: "images/dog.gif",
-        sound: "sounds/dog.mp3"
+        sound: "sounds/Dog.mp3"
     },
     {
         name: "Duck",
         key: "u",
         image: "images/duck.gif",
-        sound: "sounds/duck.mp3"
+        sound: "sounds/Duck.mp3"
     },
     {
         name: "Elephant",
         key: "e",
         image: "images/elephant.gif",
-        sound: "sounds/elephant.mp3"
+        sound: "sounds/Elephant.mp3"
     },
     {
         name: "Lion",
         key: "l",
         image: "images/lion.gif",
-        sound: "sounds/lion.mp3"
+        sound: "sounds/Lion.mp3"
     },
     {
         name: "Monkey",
         key: "m",
         image: "images/monkey.gif",
-        sound: "sounds/monkey.mp3"
+        sound: "sounds/Monkey.mp3"
     },
     {
         name: "Cow",
