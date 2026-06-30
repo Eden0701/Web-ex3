@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eden Ben-Ezra Jungle</title>
+
+    <link rel="stylesheet" href="styles.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <header class="main-header">
+        <h1>Welcome to Eden's Jungle</h1>
+        <p>Click an animal or press its keyboard key to hear the sound</p>
+    </header>
+
+    <section class="instructions">
+        <h2>How to Play</h2>
+        <p>
+            Each animal has a keyboard key. You can click the animal card or press the matching key.
+        </p>
+    </section>
+
+    <main>
+        <section id="animalsContainer" class="animals-container">
+            <!-- Animal cards will be created using JavaScript -->
+        </section>
+    </main>
+
+    <section class="controls">
+        <button id="musicBtn">Pause Background Music</button>
+        <button id="randomBtn">Play Random Animal</button>
+    </section>
+
+    <section class="last-animal-box">
+        <h3>Last Animal Played:</h3>
+        <p id="lastAnimalText">None yet</p>
+    </section>
+
+    <div id="startOverlay" class="start-overlay">
+        <div class="start-box">
+            <h2>Enter the Jungle</h2>
+            <p>Click the button to start the background music</p>
+            <button id="startBtn">Start</button>
+        </div>
+    </div>
+
+    <footer>
+        <p>© 2026 Eden Ben-Ezra Jungle</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
